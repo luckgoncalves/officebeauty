@@ -4,7 +4,8 @@ export function Scheduling({id}:{id: string}) {
   return (
     <section id={id} className="flex flex-col items-start justify-center border-[1px] border-[#526B53] bg-[#FFCDBC] rounded-[50px] mt-20 w-full">
       <div className=" w-full flex flex-col md:flex-row justify-between items-center py-10 md:p-20 gap-10 ">
-        <h2 className="text-4xl text-[#404040] font-light" >Agende um horário</h2>
+        <h2 className="hidden sm:block text-4xl text-[#404040] font-light text-left" >Oferecemos um atendimento ágil e com horários flexíveis. <br/> Entre em contato e confira a nossa agenda!</h2>
+        <h2 className="sm:hidden text-3xl text-[#404040] font-light text-left px-8">Oferecemos um atendimento ágil e com horários flexíveis. Entre em contato e confira a nossa agenda!</h2>
         <a
         href={linkWhatsapp}
         target="_blank"
